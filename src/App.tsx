@@ -23,7 +23,7 @@ function App() {
         onChange={(o) => setValue1(o)}
       />
       <br />
-      <Select options={options} value={value2} onChange={(o) => setValue2(o)} />
+      {/* <Select options={options} value={value2} onChange={(o) => setValue2(o)} /> */}
     </>
   );
 }
